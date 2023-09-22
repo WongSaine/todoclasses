@@ -35,7 +35,6 @@ export default class NewTaskForm extends React.Component {
       <form className="header" onSubmit={this.handleSubmit.bind(this)}>
         <h1>Todos</h1>
         <label htmlFor="task">
-          Todo
           <input
             name="task"
             type="text"
